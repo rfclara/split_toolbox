@@ -9,7 +9,7 @@ This script generates individual Toolbox `.txt` files for each document ID found
 - The script extracts the document ID (the word after `\id` and before the space).
 - It collects all segments belonging to the same document ID.
 - For each unique document ID, it creates a new `.txt` file named after the ID (e.g., `about_Kris_1a.txt`).
-- Each output file starts with the header line: `\_sh v3.0  400  Yali_Text_id`
+- Each output file starts with the same header line as the original input file (the first line is copied automatically, not hardcoded).
 - All segments for that document ID are written to the corresponding file.
 
 ## Usage
